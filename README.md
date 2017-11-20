@@ -51,6 +51,8 @@
      
 ## 5. Generate TFRecords for training/validation sets
 
+  - If you don't have a virtualenv with [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) set up, you should first head to their [installation guide](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md).
+
   - At this stage we need to use the tensorflow object detection, so I copy the entire directory to my project directory and then the images, labels and data to __tensorflow/models__
   
         mkdir tensorflow
@@ -73,7 +75,7 @@
           name: 'class label'
         }
         
-  - As of now, you also need to modify function __class_text_to_int__ in __generate_tfrecord.py__ to match the class name as well (__FIXME!__)        
+  - As of now, you also need to modify function __class_text_to_int__ in __generate_tfrecord.py__ to match the class name as well         
 
   - Then run the following for  __train_label.csv__ and __test_label.csv__ to convert them to TFrecords (the format TF expects to read image labels)
   
