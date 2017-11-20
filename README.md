@@ -120,5 +120,5 @@
             --input_type image_tensor \
             --pipeline_config_path=./ssd_mobilenet_v1_coco.config \
             --trained_checkpoint_prefix ./model/train/model.ckpt-[EPOCH NO] \
-            --output_directory .checkpoitns/saved_model_[EPOCH NO].pb
+            --output_directory ./checkpoints/saved_model_[EPOCH NO].pb
       
