@@ -51,7 +51,7 @@
      
 ## 5. Generate TFRecords for training/validation sets
 
-  - If you don't have a virtualenv with [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) set up, you should first head to their [installation guide](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md).
+  - If you don't have [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) set up, you should first head to their [installation guide](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md).
 
   - At this stage we need to use the tensorflow object detection, so I copy the entire directory to my project directory and then the images, labels and data to __tensorflow/models__
   
