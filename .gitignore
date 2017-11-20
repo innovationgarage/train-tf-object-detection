@@ -1,0 +1,14 @@
+#tmps
+**/*.pyc
+**/*.py~
+*~
+\#*\#
+
+#data
+images/
+
+#labels
+labels/
+
+#tensorflow
+tensorflow/
