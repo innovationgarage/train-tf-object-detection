@@ -2,7 +2,9 @@
 
 ## 1. Label images 
 
-  - If you are using a pre-labeled dataset, you may have to jump forward to one of the steps between 2 to 6 depending on the format of the labels
+  - If you are using a pre-labeled dataset, you may have to jump forward to one of the steps between 2 to 6 depending on the format of the labels.
+  
+  - If you are using [label-V](https://github.com/innovationgarage/label-V), you may jump to step 3.
 
   - Follow these steps to make [ImageNet-Utils](https://github.com/tzutalin/ImageNet_Utils)
   
