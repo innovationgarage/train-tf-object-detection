@@ -11,4 +11,8 @@ images/
 labels/
 
 #tensorflow
-tensorflow/
+#tensorflow/
+
+#checkpoints
+tensorflow/models/checkpoints/
+tensorflow/models/model/train/
