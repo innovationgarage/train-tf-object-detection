@@ -84,7 +84,7 @@
         
 ## 6. Configure the network and choose a checkpoint to use
 
-  - Find the config file you want for your problem (e.g. from [these samples](https://github.com/tensorflow/models/tree/master/research/object_detection/samples/configs)). I am running my training locally and therefore I need to set the path to traininig/validation records, as well as the model checkpoint (let's say __ssd_mobilenet_v1_coco__). if you use my config file search for the term __PATH_TO_BE_CONFIGURED__ and set the paths. Also make sure to set the correct value to __num_classes__!
+  - Find the config file you want for your problem (e.g. from [these samples](https://github.com/tensorflow/models/tree/master/research/object_detection/samples/configs)). I am running my training locally and therefore I need to set the path to traininig/validation records, as well as the model checkpoint (let's say __ssd_mobilenet_v1_coco__). if you use my config file search for the term __PATH_TO_BE_CONFIGURED__ and set the paths. Also make sure to set the correct value to __num_classes__! Of course there are many other parameters that needs tuning for your specific roblem, and depending on the (feature extractor, meta architecture) combination you choose yo use.
   
 ## 7. Train
 
