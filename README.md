@@ -72,7 +72,11 @@
 
         item {
           id: 1
-          name: 'class label'
+          name: 'class1 label'
+        }
+        item {
+          id: 2
+          name: 'class2 label'
         }
         
   - As of now, you also need to modify function __class_text_to_int__ in __generate_tfrecord.py__ to match the class name as well         
